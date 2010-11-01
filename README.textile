@@ -2,7 +2,7 @@ h1.  KISSY for NodeJS
 
 依赖jsdom,htmlparser,express,connect
 
-download http://github.com/jayli/nodejs-kissy/raw/master/kissy-server.js 和 http://github.com/jayli/nodejs-kissy/raw/master/kissy.js
+下载 "kissy-server.js" : http://github.com/jayli/nodejs-kissy/raw/master/kissy-server.js : 和 "kissy.js" : http://github.com/jayli/nodejs-kissy/raw/master/kissy.js
 
 运行
 <pre class="console">sudo node kissy-server.js</pre>
