@@ -9,7 +9,11 @@ npm install htmlparser
 npm install express
 npm install connect</pre>
 
-h1.  安装nodejs-kissy
+h1.  通过NPM安装 nodejs-kissy
+
+<pre class="console">npm install kissy</pre>
+
+h1.  通过源码安装 nodejs-kissy
 
 需要安装 npm 和 git
 
