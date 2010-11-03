@@ -1,10 +1,33 @@
 h1.  KISSY for NodeJS
 
-依赖jsdom,htmlparser,express,connect
+nodejs-kissy 实现了将 kissy 移植到 nodeJS 上运行
 
-下载 "kissy-server.js":http://github.com/jayli/nodejs-kissy/raw/master/kissy-server.js 和 "kissy.js":http://github.com/jayli/nodejs-kissy/raw/master/kissy.js
+它依赖jsdom,htmlparser,express,connect,第一次安装请执行
+
+<pre class="console">npm install jsdom
+npm install htmlparser
+npm install express
+npm install connect</pre>
+
+h1.  安装nodejs-kissy
+
+需要安装 npm 和 git
+
+<pre class="console">git clone git://github.com/jayli/nodejs-kissy.git
+cd nodejs-kissy/
+npm install .</pre>
+
+h1. Hello World
+
+新建文件test.js
+
+<pre class="console">require('kissy');
+var S = KISSY;
+S.use('ks-core',function(S){
+	S.log('hello world!');	
+});</pre>
 
 运行
-<pre class="console">sudo node kissy-server.js</pre>
 
-访问服务器的81端口
+<pre class="console">node test.js</pre>
+
