@@ -1,5 +1,5 @@
 
-require('./kissy');
+require('../lib/kissy');
 
 var S = KISSY;
 /*
