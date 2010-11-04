@@ -11,11 +11,13 @@ npm install connect</pre>
 
 h1.  通过NPM安装 nodejs-kissy
 
+需要预装 npm
+
 <pre class="console">npm install kissy</pre>
 
 h1.  通过源码安装 nodejs-kissy
 
-需要安装 npm 和 git
+需要预装 npm 和 git
 
 <pre class="console">git clone git://github.com/kissyteam/nodejs-kissy.git
 cd nodejs-kissy/
@@ -25,9 +27,8 @@ h1. Hello World
 
 新建文件test.js
 
-<pre class="console">require('kissy');
-var S = KISSY;
-S.use('ks-core',function(S){
+<pre class="console">var S = require('kissy').KISSY;
+S.ready(function(S){
 	S.log('hello world!');	
 });</pre>
 
@@ -35,3 +36,10 @@ S.use('ks-core',function(S){
 
 <pre class="console">node test.js</pre>
 
+h1.  Using KISSY
+
+KISSY-Calendar Demo://gist.github.com/662117 
+
+h1.  License
+
+KISSY 遵守 MIT:https://github.com/kissyteam/kissy/blob/master/LICENSE.md 协议

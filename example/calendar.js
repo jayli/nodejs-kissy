@@ -1,7 +1,5 @@
 
-require('../lib/kissy');
-
-var S = KISSY;
+var S = require('../lib/kissy').KISSY;
 
 S.use('calendar',function(S) {
 
