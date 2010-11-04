@@ -38,8 +38,8 @@ S.ready(function(S){
 
 h1.  Using KISSY
 
-KISSY-Calendar Demo://gist.github.com/662117 
+"KISSY-Calendar Demo"://gist.github.com/662117 
 
 h1.  License
 
-KISSY 遵守 MIT:https://github.com/kissyteam/kissy/blob/master/LICENSE.md 协议
+KISSY 遵守 "MIT":https://github.com/kissyteam/kissy/blob/master/LICENSE.md 协议
