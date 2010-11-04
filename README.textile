@@ -17,7 +17,7 @@ h1.  通过源码安装 nodejs-kissy
 
 需要安装 npm 和 git
 
-<pre class="console">git clone git://github.com/jayli/nodejs-kissy.git
+<pre class="console">git clone git://github.com/kissyteam/nodejs-kissy.git
 cd nodejs-kissy/
 npm install .</pre>
 
